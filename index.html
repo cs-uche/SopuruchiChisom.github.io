@@ -1,7 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Sopuruchi's Portfolio</title>
@@ -17,80 +14,157 @@
 
 				<!-- Intro -->
 					<div id="intro">
-						<h1>Sopuruchi's Portfolio</h1>
-						<p>Business Intelligence Developer skilled in SQL, Python, Power BI and Machine Learning Concepts</p>
+						<h1>Sopuruchi Chisom</h1>
+						<p>Business Intelligence Developer translating data into insights</p>
 						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+							<li><a href="#main" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
 					</div>
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Portfolio</a>
+						<!-- <a href="index.html" class="logo">Portfolio</a> -->
 					</header>
 					
 				<!-- Main -->
 					<div id="main">
+
+						<section class = "About">
+								<h2>About Me</h2>
+								<p>I am a develper specialized in crafting cutting-edge solutions utilizing Data Science, the power of the Cloud, and Software Engineering principles. My passion lies in deciphering data—how we wield it, how it molds our world, and how it sparks innovation. 
+								</p>
+								Want to know more? Checkout my <a href="https://cs-uche.github.io/portfolio/"> Online Resume</a>.
+	
+						</section>
+						<section class = "Skills">
+								<h2>Technology Stack</h2>
+								<p>
+									<li>Programming Languages: Python, SQL, Java</li>
+									<li>Machine Learning: Regression, Classification, Ensemble, Unsupervised Learning</li>
+									<li>Big Data and Cloud Platforms: AWS, Azure, Databricks, Spark, Airflow, Prefect, Hadoop, Kafka</li>
+									<li>Analysis & Methodologies: A/B Testing, ETL/ELT, Statistics</li>
+									<li>Software Development: OOP, OOD, APIs, Version Control</li>
+									<li>Operating Systems: Windows, Unix/Linux</li>	
+								</p>
+						</section>
+						
 						<!-- Featured Post -->
+						<section>
 							<article class="post featured">
 								<header class="major">
-									<h2><a href="https://github.com/cs-uche/Data/blob/main/DataCleaning-NashvilleHousing.sql">Data Cleaning</a></h2>
-									<p>This is a data cleaning project on Nashville Housing data injested from <a href="https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data">Kaggle</a> and cleaned in SQL Server Management Studio.
-									</p>
+									<h2><a href="https://github.com/cs-uche/Car-Prices-Prediction">Car Price Prediction</a></h2>
+									<p>Unleash the Power of Predictive Pricing: An end-to-end Machine Learning Pipeline</p>
 								</header>
-								<a class="image main"><img src="images/NashvilleHousing.jpeg" alt="Nashville Housing"/></a>
+								<a class="image main"><img src="images/car_prices_image.jpg" alt="Image of Cars"/></a>
+								
+								<p>In the dynamic automotive market, accurately pricing cars is critical for both buyers and sellers. To address this challenge, we present a Car Price Prediction Model - a robust predictive model that estimates car prices effectively.
+								</p>
+								<ul>
+									<li>Exploratory Data Analysis in Jupyter and AWS Cloud9</li>
+									<li>Model Development using ensemble models and Optuna hyperparameter tuning</li>
+									<li>Secure Data Versioning both Locally and in the AWS S3 Cloud</li>
+									<li>Model Registry using MLflow</li>
+									<li>Seamless Model Deployment in the AWS Sagemaker Endpoint</li>
+								</ul> 
+								
 								<ul class="actions special">
-									<li><a href="https://github.com/cs-uche/Data/blob/main/DataCleaning-NashvilleHousing.sql" class="button large">View Project</a></li>
+									<li><a href="https://github.com/cs-uche/Car-Prices-Prediction" class="button large">View Project</a></li>
+								</ul>
+							</article>
+						</section>
+							
+						<!-- Posts -->
+						<section class="posts">
+							<article class="post featured">
+								<header class="major">
+									<h3><a href="https://github.com/cs-uche/High-Traffic-Recipe-Prediction">Recipe Prediction</a></h3>
+								</header>
+								<a class="image main"><img src="images/recipie_produce_image.jpg" alt="Food Produce Image"/></a>
+								<p>With customers having the option of monthly or premium subscriptions customer engagement is a priority. Popular recipes drive traffic to the rest of the websites up by 40% when displayed on the homepage. This model accurately predict recipe traffic 72% of the time. Elevate your culinary platform and anticipate user preferences for a flavor-filled success story!
+								</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/cs-uche/High-Traffic-Recipe-Prediction" class="button large">View Project</a></li>
 								</ul>
 							</article>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="https://github.com/cs-uche/Data/blob/main/DataExploration-COVID.sql">Data Exploration</a></h2>
-									</header>
-									<a class="image fit"><img src="images/COVID.jpg" alt="COVID image"/></a>
-									<p>Data exploration with COVID data.
-										</br>The data set can be viewed <a href="https://ourworldindata.org/covid-deaths">here</a>. And this is the <a href="https://public.tableau.com/app/profile/uche4568/viz/COVIDDashboardNov22/COVIDDashboardNov22">link</a> to the Tableau visualization.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/cs-uche/Data/blob/main/DataExploration-COVID.sql" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/cs-uche/Data/blob/main/stream.py">Sentiment Analysis</a></h2>
-									</header>
-									<a class="image fit"><img src="images/COVID-twittter.jpeg" alt="Tweets on COVID-19" /></a>
-									<p>This is a tweets sentiment Analysis program. </br>The tweets gotten from twitter API are streamed using this <a href="https://github.com/cs-uche/Data/blob/main/stream.py">code</a> and sentiment analysis is performed using <a href="https://github.com/cs-uche/Data/blob/main/spark.py">this</a>.</br>The tweets used in this program are filtered to tweets containing #covid19</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/cs-uche/Data/blob/main/stream.py" class="button">View Project</a></li>
-									</ul>
-								</article>
-							</section>
+							<article class="post featured">
+								<header class="major">
+									<h3><a href="https://github.com/cs-uche/AWS-Power-Calculator-Web-App">Power Calculator App</a></h3>
+								</header>
+								<a class="image fit"><img src="images/PowerCalculatorSystemDesign.png" alt="Application System Design"/></a>
+								<p>The Power Calculator Web App is an end-to-end web application created and hosted on AWS. The application allows users to calculate the power of a base number raised to an exponent. It leverages various AWS services for different functionalities, providing a scalable and secure solution.
+								</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/cs-uche/AWS-Power-Calculator-Web-App" class="button large">View Project</a></li>
+								</ul>
+							</article>
+
+							<article class="post featured">
+								<header class="major">
+									<h3><a href="https://github.com/cs-uche/sp500_etl_pipeline">Fortune 500 ETL Pipeline</a></h3>
+								</header>
+								<a class="image fit"><img src="images/sp500_etl_image.png" alt="ETL Pipeline Image"/></a>
+								<p>Experience seamless data transformation for Fortune 500 companies with this ETL Pipeline powered by Apache Airflow. Automate and elevate the processing of vast datasets, ensuring precision and efficiency in every step. Unleash the potential of streamlined data workflows for unparalleled insights and informed decision-making.
+								</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/cs-uche/sp500_etl_pipeline" class="button large">View Project</a></li>
+								</ul>
+							</article>
+
+							<article class="post featured">
+								<header class="major">
+									<h3><a href="https://github.com/cs-uche/Nashville-Housing-Data-Analysis">Nashville Housing Data Cleaning</a></h3>
+								</header>
+								<a class="image fit"><img src="images/NashvilleHousing.jpg" alt="Nashville Housing"/></a>
+								<p>Dive into the Nashville Housing Data Cleaning project, a meticulous endeavor to elevate the quality and structure of the Kaggle-acquired Nashville Housing dataset. Processed with precision in SQL Server Management Studio, this initiative unveils valuable insights into property sales in Nashville. 
+								</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/cs-uche/Nashville-Housing-Data-Analysis" class="button large">View Project</a></li>
+								</ul>
+							</article>
+
+							<article>
+								<header>
+									<h3><a href="https://github.com/cs-uche/COVID-data-analysis">COVID Data Exploration</a></h3>
+								</header>
+								<a class="image fit"><img src="images/COVID.jpg" alt="COVID image"/></a>
+								<p>Embark on a journey of exploration with our COVID Data Exploration project. Delve into the depths of COVID-19 data sourced from Our World in Data. Our objective is to unveil valuable insights into the global impact of the pandemic, meticulously analyzed and presented through captivating Tableau visualizations. 
+								</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/cs-uche/COVID-data-analysis" class="button">View Project</a></li>
+								</ul>
+							</article>
+
+							<article>
+								<header>
+									<h3><a href="https://github.com/cs-uche/tweets-streaming">Tweet Sentiment Analysis</a></h3>
+								</header>
+								<a class="image fit"><img src="images/COVID-twittter.jpeg" alt="Tweets on COVID-19" /></a>
+								<p>Dive into the world of real-time insights with our Tweet Sentiment Analysis project. Powered by Apache Spark, this scalable application streams tweets, focusing on #covid19. Witness sentiment analysis in action and explore tweet locations through captivating visualizations in Kibana. Stay ahead with dynamic analytics in the age of social media. 
+								</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/cs-uche/tweets-streaming" class="button">View Project</a></li>
+								</ul>
+							</article>
+						</section>
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>Texas, USA</p>
-							</section>
 							<section>
-								<h3>Social</h3>
+								<h3>Socials</h3>
 								<ul class="icons alt">
 									<li><a href="https://www.linkedin.com/in/sopuruchi-chisom/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 									<li><a href="https://github.com/cs-uche" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://medium.com/@sopuruchi.chisom" class="icon brands alt fa-medium"><span class="label">Medium</span></a></li>
 								</ul>
 							</section>
-						</section>
 					</footer>
 
 				<!-- Copyright -->
-					<!-- <div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div> -->
+					<div id="copyright">
+						<ul><li>&copy; 2023 SOPURUCHI CHISOM </li><li><a href="https://html5up.net">Design</a></li></ul>
+					</div>
 
 			</div>
 
